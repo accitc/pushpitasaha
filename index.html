@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>The Northern Lights</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="animate.css">
+<script src="wow.min.js"> </script>
+<script>
+new WOW().init();
+</script>
+</head>
+
+<body>
+<div id="div1">
+           <div id="div2">
+                 <div id="nav_wrapper">
+ <h1><a href="index.html" style="text-decoration:none"><font color="white" face=" 'Pacifico', cursive">The Northern Lights</font></a></h1>										
+                 
+                 	<ul>
+                    	<li><a href="about.html">About</a></li>
+                		<li><a href="aurora.html">The Aurora</a></li>
+                        <li><a href="news.html">News</a></li>
+                		<li><a href="contact.html">Contact</a></li>	    
+                    </ul>
+                 
+                 </div> 
+                      
+           </div>
+<div id="main-content">
+<br />
+<h1 class="wow animated fadeInDown" data-wow-delay="0.3s">Welcome to The Northern Lights</h1>
+<p class="wow animated fadeInDown" data-wow-delay="0.3s"> A mesmerising and spellbinding celestial light show that has fascinated humankind for millennia.</p>
+<br />
+<div id="service"> 
+<div class="wow animated fadeInDown" data-wow-delay="0.3s">
+<h3 class="wow animated pulse" data-wow-delay="1s"><a href="aurora.html">Check The Aurora</a></h3></div>
+</div>
+</div>
+<div id="third" >
+<div id="third1" class="wow animated flipInX" data-wow-delay="1s"><img src="images/ring.jpg" /><br />
+		<h3>Ring Around The Sky</h3> <br/>
+        <p>In this composite photograph, the northern lights, or aurora, reflect off Jökulsárlón, a glacial lake in Iceland. </p>
+</div>
+<div id="third1" class="wow animated flipInX" data-wow-delay="1.5s"><img src="images/awes.jpg" /><br />
+		<h3> Alaska Awes</h3> <br/>
+        <p>One of the nice and powerful aurora displays near Fairbanks, Alaska, November 2005.</p>
+</div>
+<div id="third1" class="wow animated flipInX" data-wow-delay="2s"><img src="images/lake.jpg" /><br />
+		<h3> Lake Reflection</h3> <br/>
+        <p>Intense aurora borealis shine in moonlit night being mirrored on Lake Laberge, Yukon Territory, Canada.</p>
+</div>
+</div>
+<div id="footer">
+<h2>&copy; All Rights Reserved</h2>
+<div id="nav2">
+	<ul class="wow animated bounceIn" data-wow-delay="1s">
+    	<li><a href="#"><i class="fa fa-facebook" id="iconfb"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" id="icontwt"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube" id="iconyt"></i></a></li>
+    </ul>
+</div>
+</div>
+
+<a id="scrollToTop" class="hide" href=""><i class="fa fa-arrow-circle-up"></i></a>
+
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+   <script>
+       $(document).on('click','#scrollToTop',function(){
+          $('html,body').animate({scrollTop:0},500);
+          return false;
+       });
+
+       $(document).scroll(function(e) {
+        var scrollPos = $(this).scrollTop();
+        if(scrollPos < 300){
+            $('#scrollToTop').addClass('hide');
+        } else{
+            $('#scrollToTop').removeClass('hide');
+        }
+       });
+</script>
+</body>
+</html>
